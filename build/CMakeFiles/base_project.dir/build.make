@@ -68,28 +68,28 @@ include CMakeFiles/base_project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/base_project.dir/flags.make
 
-CMakeFiles/base_project.dir/main.cpp.obj: CMakeFiles/base_project.dir/flags.make
-CMakeFiles/base_project.dir/main.cpp.obj: C:/Users/hmkif/OneDrive/Desktop/Open\ Projects/base_project/main.cpp
-CMakeFiles/base_project.dir/main.cpp.obj: CMakeFiles/base_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_project.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_project.dir/main.cpp.obj -MF CMakeFiles\base_project.dir\main.cpp.obj.d -o CMakeFiles\base_project.dir\main.cpp.obj -c "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\main.cpp"
+CMakeFiles/base_project.dir/src/main.cpp.obj: CMakeFiles/base_project.dir/flags.make
+CMakeFiles/base_project.dir/src/main.cpp.obj: C:/Users/hmkif/OneDrive/Desktop/Open\ Projects/base_project/src/main.cpp
+CMakeFiles/base_project.dir/src/main.cpp.obj: CMakeFiles/base_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_project.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_project.dir/src/main.cpp.obj -MF CMakeFiles\base_project.dir\src\main.cpp.obj.d -o CMakeFiles\base_project.dir\src\main.cpp.obj -c "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\src\main.cpp"
 
-CMakeFiles/base_project.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base_project.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\main.cpp" > CMakeFiles\base_project.dir\main.cpp.i
+CMakeFiles/base_project.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base_project.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\src\main.cpp" > CMakeFiles\base_project.dir\src\main.cpp.i
 
-CMakeFiles/base_project.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base_project.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\main.cpp" -o CMakeFiles\base_project.dir\main.cpp.s
+CMakeFiles/base_project.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base_project.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\src\main.cpp" -o CMakeFiles\base_project.dir\src\main.cpp.s
 
 # Object files for target base_project
 base_project_OBJECTS = \
-"CMakeFiles/base_project.dir/main.cpp.obj"
+"CMakeFiles/base_project.dir/src/main.cpp.obj"
 
 # External object files for target base_project
 base_project_EXTERNAL_OBJECTS =
 
-base_project.exe: CMakeFiles/base_project.dir/main.cpp.obj
+base_project.exe: CMakeFiles/base_project.dir/src/main.cpp.obj
 base_project.exe: CMakeFiles/base_project.dir/build.make
 base_project.exe: CMakeFiles/base_project.dir/linkLibs.rsp
 base_project.exe: CMakeFiles/base_project.dir/objects1.rsp

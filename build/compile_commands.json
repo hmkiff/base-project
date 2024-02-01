@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\base_project.dir\\main.cpp.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\main.cpp\"",
-  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/main.cpp",
-  "output": "CMakeFiles/base_project.dir/main.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\base_project.dir\\src\\main.cpp.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\src\\main.cpp\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/src/main.cpp",
+  "output": "CMakeFiles/base_project.dir/src/main.cpp.obj"
 }
 ]
