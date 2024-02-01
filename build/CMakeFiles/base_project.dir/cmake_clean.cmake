@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/base_project.dir/src/glad.c.obj"
-  "CMakeFiles/base_project.dir/src/glad.c.obj.d"
   "CMakeFiles/base_project.dir/src/main.cpp.obj"
   "CMakeFiles/base_project.dir/src/main.cpp.obj.d"
   "base_project.exe"
@@ -10,6 +8,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C CXX)
+foreach(lang CXX)
   include(CMakeFiles/base_project.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

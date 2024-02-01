@@ -870,12 +870,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/base_project.dir/all: libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base_project.dir\build.make CMakeFiles/base_project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base_project.dir\build.make CMakeFiles/base_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=1,2,3 "Built target base_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=1,2 "Built target base_project"
 .PHONY : CMakeFiles/base_project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/base_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 19
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/base_project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 0
 .PHONY : CMakeFiles/base_project.dir/rule
@@ -922,7 +922,7 @@ libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/clean:
 libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\update_mappings.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\update_mappings.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=20 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=19 "Built target update_mappings"
 .PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -948,7 +948,7 @@ libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean:
 libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\glfw.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\glfw.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target glfw"
 .PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.

@@ -5,12 +5,11 @@ include(CTest)
 enable_testing()
 
 # Source files
-add_executable( base_project 
-                src/main.cpp
-                src/glad.c
-                libraries/include/glad.h
-
+add_executable( base_project             
+    src/main.cpp
 )
+
+include_directories(libraries/include/glad)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
@@ -26,6 +25,7 @@ target_link_libraries(${PROJECT_NAME} glfw)
 # OpenGL setup
 find_package(OpenGL REQUIRED)
 target_link_libraries(${PROJECT_NAME} OpenGL::GL)
+
 
 
 include(CPack)
