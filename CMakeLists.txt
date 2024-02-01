@@ -7,12 +7,19 @@ enable_testing()
 # Source files
 add_executable( base_project             
     src/main.cpp
-)
 
-include_directories(libraries/include/glad)
+)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+
+# OpenGL setup
+find_package(OpenGL REQUIRED)
+target_link_libraries(${PROJECT_NAME} OpenGL::GL)
+
+# Glad
+add_subdirectory(libraries/include)
+target_link_libraries(${PROJECT_NAME} glad)
 
 # GLFW setup. Default no docs, tests, or examples.
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
@@ -21,12 +28,6 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(libraries/lib/glfw-3.3.9)
 target_link_libraries(${PROJECT_NAME} glfw)
-
-# OpenGL setup
-find_package(OpenGL REQUIRED)
-target_link_libraries(${PROJECT_NAME} OpenGL::GL)
-
-
 
 include(CPack)
 

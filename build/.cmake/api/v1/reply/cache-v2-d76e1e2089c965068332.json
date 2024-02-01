@@ -199,10 +199,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/MinGW/bin/g++.exe"
 		},
 		{
@@ -343,10 +343,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/MinGW/bin/gcc.exe"
 		},
 		{
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2360,6 +2360,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project"
+		},
+		{
+			"name" : "glad_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include"
+		},
+		{
+			"name" : "glad_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "glad_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/include"
 		}
 	],
 	"kind" : "cache",

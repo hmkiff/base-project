@@ -61,29 +61,29 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-msq129"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-msq129"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-qena0m"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-qena0m"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-msq129'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-qena0m'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_22dd8/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_22dd8.dir\\build.make CMakeFiles/cmTC_22dd8.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-msq129'
-        Building C object CMakeFiles/cmTC_22dd8.dir/CMakeCCompilerABI.c.obj
-        C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_aff13/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_aff13.dir\\build.make CMakeFiles/cmTC_aff13.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-qena0m'
+        Building C object CMakeFiles/cmTC_aff13.dir/CMakeCCompilerABI.c.obj
+        C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
         Target: mingw32
         Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
         Thread model: win32
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccL020fe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccfw2UUe.s
         GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -104,17 +104,17 @@ events:
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccL020fe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccfw2UUe.s
         GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-        Linking C executable cmTC_22dd8.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_22dd8.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_22dd8.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_22dd8.dir/objects.a @CMakeFiles\\cmTC_22dd8.dir\\objects1.rsp
-        C:\\MinGW\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_22dd8.dir/objects.a -Wl,--no-whole-archive -o cmTC_22dd8.exe -Wl,--out-implib,libcmTC_22dd8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+        Linking C executable cmTC_aff13.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_aff13.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_aff13.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_aff13.dir/objects.a @CMakeFiles\\cmTC_aff13.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_aff13.dir/objects.a -Wl,--no-whole-archive -o cmTC_aff13.exe -Wl,--out-implib,libcmTC_aff13.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -124,10 +124,10 @@ events:
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22dd8.exe' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccE652jJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_22dd8.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_22dd8.dir/objects.a --no-whole-archive --out-implib libcmTC_22dd8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22dd8.exe' '-mtune=generic' '-march=i586'
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-msq129'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aff13.exe' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccZLqZcM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_aff13.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_aff13.dir/objects.a --no-whole-archive --out-implib libcmTC_aff13.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aff13.exe' '-mtune=generic' '-march=i586'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-qena0m'
         
       exitCode: 0
   -
@@ -159,21 +159,21 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-msq129']
+        ignore line: [Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-qena0m']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_22dd8/fast]
-        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_22dd8.dir\\build.make CMakeFiles/cmTC_22dd8.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-msq129']
-        ignore line: [Building C object CMakeFiles/cmTC_22dd8.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_aff13/fast]
+        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_aff13.dir\\build.make CMakeFiles/cmTC_aff13.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-qena0m']
+        ignore line: [Building C object CMakeFiles/cmTC_aff13.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccL020fe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccfw2UUe.s]
         ignore line: [GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -194,8 +194,8 @@ events:
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccL020fe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccfw2UUe.s]
         ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
         ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
         ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -204,12 +204,12 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22dd8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-        ignore line: [Linking C executable cmTC_22dd8.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_22dd8.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_22dd8.dir/objects.a]
-        ignore line: [C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_22dd8.dir/objects.a @CMakeFiles\\cmTC_22dd8.dir\\objects1.rsp]
-        ignore line: [C:\\MinGW\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_22dd8.dir/objects.a -Wl --no-whole-archive -o cmTC_22dd8.exe -Wl --out-implib libcmTC_22dd8.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aff13.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [Linking C executable cmTC_aff13.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_aff13.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_aff13.dir/objects.a]
+        ignore line: [C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_aff13.dir/objects.a @CMakeFiles\\cmTC_aff13.dir\\objects1.rsp]
+        ignore line: [C:\\MinGW\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_aff13.dir/objects.a -Wl --no-whole-archive -o cmTC_aff13.exe -Wl --out-implib libcmTC_aff13.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -224,13 +224,13 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22dd8.exe' '-mtune=generic' '-march=i586']
-        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccE652jJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_22dd8.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_22dd8.dir/objects.a --no-whole-archive --out-implib libcmTC_22dd8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aff13.exe' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccZLqZcM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_aff13.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_aff13.dir/objects.a --no-whole-archive --out-implib libcmTC_aff13.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccE652jJ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccZLqZcM.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -249,7 +249,7 @@ events:
           arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_22dd8.exe] ==> ignore
+          arg [cmTC_aff13.exe] ==> ignore
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -257,10 +257,10 @@ events:
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_22dd8.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_aff13.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_22dd8.dll.a] ==> ignore
+          arg [libcmTC_aff13.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -308,29 +308,29 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bii7g4"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bii7g4"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-c3odzy"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-c3odzy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bii7g4'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-c3odzy'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4e066/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4e066.dir\\build.make CMakeFiles/cmTC_4e066.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bii7g4'
-        Building CXX object CMakeFiles/cmTC_4e066.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_60ea7/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_60ea7.dir\\build.make CMakeFiles/cmTC_60ea7.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-c3odzy'
+        Building CXX object CMakeFiles/cmTC_60ea7.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\g++.exe
         Target: mingw32
         Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
         Thread model: win32
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccAZhH9v.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccUI1rI2.s
         GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
@@ -359,17 +359,17 @@ events:
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: af09a87986453bf79da3565f33c7648f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccAZhH9v.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccUI1rI2.s
         GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-        Linking CXX executable cmTC_4e066.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4e066.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4e066.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_4e066.dir/objects.a @CMakeFiles\\cmTC_4e066.dir\\objects1.rsp
-        C:\\MinGW\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_4e066.dir/objects.a -Wl,--no-whole-archive -o cmTC_4e066.exe -Wl,--out-implib,libcmTC_4e066.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        Linking CXX executable cmTC_60ea7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_60ea7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_60ea7.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_60ea7.dir/objects.a @CMakeFiles\\cmTC_60ea7.dir\\objects1.rsp
+        C:\\MinGW\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_60ea7.dir/objects.a -Wl,--no-whole-archive -o cmTC_60ea7.exe -Wl,--out-implib,libcmTC_60ea7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -379,10 +379,10 @@ events:
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e066.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccXEQWqe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_4e066.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_4e066.dir/objects.a --no-whole-archive --out-implib libcmTC_4e066.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e066.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bii7g4'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60ea7.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccXVcxol.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_60ea7.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_60ea7.dir/objects.a --no-whole-archive --out-implib libcmTC_60ea7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60ea7.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-c3odzy'
         
       exitCode: 0
   -
@@ -420,21 +420,21 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bii7g4']
+        ignore line: [Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-c3odzy']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4e066/fast]
-        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4e066.dir\\build.make CMakeFiles/cmTC_4e066.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bii7g4']
-        ignore line: [Building CXX object CMakeFiles/cmTC_4e066.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_60ea7/fast]
+        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_60ea7.dir\\build.make CMakeFiles/cmTC_60ea7.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-c3odzy']
+        ignore line: [Building CXX object CMakeFiles/cmTC_60ea7.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\g++.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccAZhH9v.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccUI1rI2.s]
         ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
@@ -463,8 +463,8 @@ events:
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccAZhH9v.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccUI1rI2.s]
         ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
         ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
         ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -473,12 +473,12 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e066.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [Linking CXX executable cmTC_4e066.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4e066.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4e066.dir/objects.a]
-        ignore line: [C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_4e066.dir/objects.a @CMakeFiles\\cmTC_4e066.dir\\objects1.rsp]
-        ignore line: [C:\\MinGW\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_4e066.dir/objects.a -Wl --no-whole-archive -o cmTC_4e066.exe -Wl --out-implib libcmTC_4e066.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60ea7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [Linking CXX executable cmTC_60ea7.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_60ea7.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_60ea7.dir/objects.a]
+        ignore line: [C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_60ea7.dir/objects.a @CMakeFiles\\cmTC_60ea7.dir\\objects1.rsp]
+        ignore line: [C:\\MinGW\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_60ea7.dir/objects.a -Wl --no-whole-archive -o cmTC_60ea7.exe -Wl --out-implib libcmTC_60ea7.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -493,13 +493,13 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e066.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccXEQWqe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_4e066.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_4e066.dir/objects.a --no-whole-archive --out-implib libcmTC_4e066.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60ea7.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccXVcxol.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_60ea7.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_60ea7.dir/objects.a --no-whole-archive --out-implib libcmTC_60ea7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccXEQWqe.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\hmkif\\AppData\\Local\\Temp\\ccXVcxol.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -522,7 +522,7 @@ events:
           arg [-u] ==> ignore
           arg [___deregister_frame_info] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4e066.exe] ==> ignore
+          arg [cmTC_60ea7.exe] ==> ignore
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -530,10 +530,10 @@ events:
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_4e066.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_60ea7.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_4e066.dll.a] ==> ignore
+          arg [libcmTC_60ea7.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -582,8 +582,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bbexu8"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bbexu8"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-azf6m8"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-azf6m8"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -593,22 +593,22 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bbexu8'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-azf6m8'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_18ab2/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_18ab2.dir\\build.make CMakeFiles/cmTC_18ab2.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bbexu8'
-        Building C object CMakeFiles/cmTC_18ab2.dir/src.c.obj
-        C:\\MinGW\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_18ab2.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbexu8\\src.c"
-        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbexu8\\src.c:1:21: fatal error: pthread.h: No such file or directory
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e236d/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e236d.dir\\build.make CMakeFiles/cmTC_e236d.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-azf6m8'
+        Building C object CMakeFiles/cmTC_e236d.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_e236d.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-azf6m8\\src.c"
+        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-azf6m8\\src.c:1:21: fatal error: pthread.h: No such file or directory
          #include <pthread.h>
                              ^
         compilation terminated.
-        CMakeFiles\\cmTC_18ab2.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_18ab2.dir/src.c.obj' failed
-        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_18ab2.dir/src.c.obj] Error 1
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-bbexu8'
-        Makefile:126: recipe for target 'cmTC_18ab2/fast' failed
-        mingw32-make.exe: *** [cmTC_18ab2/fast] Error 2
+        CMakeFiles\\cmTC_e236d.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_e236d.dir/src.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e236d.dir/src.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-azf6m8'
+        Makefile:126: recipe for target 'cmTC_e236d/fast' failed
+        mingw32-make.exe: *** [cmTC_e236d/fast] Error 2
         
       exitCode: 2
   -
@@ -621,8 +621,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-1zd6p4"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-1zd6p4"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-gtoicx"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-gtoicx"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -632,25 +632,25 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-1zd6p4'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-gtoicx'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c9be0/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c9be0.dir\\build.make CMakeFiles/cmTC_c9be0.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-1zd6p4'
-        Building C object CMakeFiles/cmTC_c9be0.dir/CheckFunctionExists.c.obj
-        C:\\MinGW\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\\cmTC_c9be0.dir\\CheckFunctionExists.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zd6p4\\CheckFunctionExists.c"
-        Linking C executable cmTC_c9be0.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c9be0.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c9be0.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_c9be0.dir/objects.a @CMakeFiles\\cmTC_c9be0.dir\\objects1.rsp
-        C:\\MinGW\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\\cmTC_c9be0.dir/objects.a -Wl,--no-whole-archive -o cmTC_c9be0.exe -Wl,--out-implib,libcmTC_c9be0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c9be0.dir\\linkLibs.rsp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_675e6/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_675e6.dir\\build.make CMakeFiles/cmTC_675e6.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-gtoicx'
+        Building C object CMakeFiles/cmTC_675e6.dir/CheckFunctionExists.c.obj
+        C:\\MinGW\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\\cmTC_675e6.dir\\CheckFunctionExists.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoicx\\CheckFunctionExists.c"
+        Linking C executable cmTC_675e6.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_675e6.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_675e6.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_675e6.dir/objects.a @CMakeFiles\\cmTC_675e6.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\\cmTC_675e6.dir/objects.a -Wl,--no-whole-archive -o cmTC_675e6.exe -Wl,--out-implib,libcmTC_675e6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_675e6.dir\\linkLibs.rsp
         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lpthreads
         collect2.exe: error: ld returned 1 exit status
-        CMakeFiles\\cmTC_c9be0.dir\\build.make:99: recipe for target 'cmTC_c9be0.exe' failed
-        mingw32-make.exe[1]: *** [cmTC_c9be0.exe] Error 1
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-1zd6p4'
-        Makefile:126: recipe for target 'cmTC_c9be0/fast' failed
-        mingw32-make.exe: *** [cmTC_c9be0/fast] Error 2
+        CMakeFiles\\cmTC_675e6.dir\\build.make:99: recipe for target 'cmTC_675e6.exe' failed
+        mingw32-make.exe[1]: *** [cmTC_675e6.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-gtoicx'
+        Makefile:126: recipe for target 'cmTC_675e6/fast' failed
+        mingw32-make.exe: *** [cmTC_675e6/fast] Error 2
         
       exitCode: 2
   -
@@ -663,8 +663,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2wvjdh"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2wvjdh"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynrgbd"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynrgbd"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -674,25 +674,25 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2wvjdh'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynrgbd'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_96fa4/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_96fa4.dir\\build.make CMakeFiles/cmTC_96fa4.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2wvjdh'
-        Building C object CMakeFiles/cmTC_96fa4.dir/CheckFunctionExists.c.obj
-        C:\\MinGW\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\\cmTC_96fa4.dir\\CheckFunctionExists.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wvjdh\\CheckFunctionExists.c"
-        Linking C executable cmTC_96fa4.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_96fa4.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_96fa4.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_96fa4.dir/objects.a @CMakeFiles\\cmTC_96fa4.dir\\objects1.rsp
-        C:\\MinGW\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\\cmTC_96fa4.dir/objects.a -Wl,--no-whole-archive -o cmTC_96fa4.exe -Wl,--out-implib,libcmTC_96fa4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_96fa4.dir\\linkLibs.rsp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2523c/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2523c.dir\\build.make CMakeFiles/cmTC_2523c.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynrgbd'
+        Building C object CMakeFiles/cmTC_2523c.dir/CheckFunctionExists.c.obj
+        C:\\MinGW\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\\cmTC_2523c.dir\\CheckFunctionExists.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynrgbd\\CheckFunctionExists.c"
+        Linking C executable cmTC_2523c.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2523c.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2523c.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_2523c.dir/objects.a @CMakeFiles\\cmTC_2523c.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\\cmTC_2523c.dir/objects.a -Wl,--no-whole-archive -o cmTC_2523c.exe -Wl,--out-implib,libcmTC_2523c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2523c.dir\\linkLibs.rsp
         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lpthread
         collect2.exe: error: ld returned 1 exit status
-        CMakeFiles\\cmTC_96fa4.dir\\build.make:99: recipe for target 'cmTC_96fa4.exe' failed
-        mingw32-make.exe[1]: *** [cmTC_96fa4.exe] Error 1
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2wvjdh'
-        Makefile:126: recipe for target 'cmTC_96fa4/fast' failed
-        mingw32-make.exe: *** [cmTC_96fa4/fast] Error 2
+        CMakeFiles\\cmTC_2523c.dir\\build.make:99: recipe for target 'cmTC_2523c.exe' failed
+        mingw32-make.exe[1]: *** [cmTC_2523c.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynrgbd'
+        Makefile:126: recipe for target 'cmTC_2523c/fast' failed
+        mingw32-make.exe: *** [cmTC_2523c/fast] Error 2
         
       exitCode: 2
   -
@@ -704,8 +704,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-z6a3nz"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-z6a3nz"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9m85w0"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9m85w0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -715,22 +715,22 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-z6a3nz'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9m85w0'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f53df/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f53df.dir\\build.make CMakeFiles/cmTC_f53df.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-z6a3nz'
-        Building C object CMakeFiles/cmTC_f53df.dir/CheckForPthreads.c.obj
-        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_f53df.dir\\CheckForPthreads.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6a3nz\\CheckForPthreads.c"
-        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z6a3nz\\CheckForPthreads.c:1:21: fatal error: pthread.h: No such file or directory
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e1930/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e1930.dir\\build.make CMakeFiles/cmTC_e1930.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9m85w0'
+        Building C object CMakeFiles/cmTC_e1930.dir/CheckForPthreads.c.obj
+        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_e1930.dir\\CheckForPthreads.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9m85w0\\CheckForPthreads.c"
+        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9m85w0\\CheckForPthreads.c:1:21: fatal error: pthread.h: No such file or directory
          #include <pthread.h>
                              ^
         compilation terminated.
-        CMakeFiles\\cmTC_f53df.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_f53df.dir/CheckForPthreads.c.obj' failed
-        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f53df.dir/CheckForPthreads.c.obj] Error 1
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-z6a3nz'
-        Makefile:126: recipe for target 'cmTC_f53df/fast' failed
-        mingw32-make.exe: *** [cmTC_f53df/fast] Error 2
+        CMakeFiles\\cmTC_e1930.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_e1930.dir/CheckForPthreads.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e1930.dir/CheckForPthreads.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9m85w0'
+        Makefile:126: recipe for target 'cmTC_e1930/fast' failed
+        mingw32-make.exe: *** [cmTC_e1930/fast] Error 2
         
       exitCode: 2
   -
@@ -741,8 +741,8 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-dmqb9s"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-dmqb9s"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kha1vy"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kha1vy"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -752,22 +752,22 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-dmqb9s'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kha1vy'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6eca2/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6eca2.dir\\build.make CMakeFiles/cmTC_6eca2.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-dmqb9s'
-        Building C object CMakeFiles/cmTC_6eca2.dir/CheckIncludeFile.c.obj
-        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_6eca2.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dmqb9s\\CheckIncludeFile.c"
-        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dmqb9s\\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d5962/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d5962.dir\\build.make CMakeFiles/cmTC_d5962.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kha1vy'
+        Building C object CMakeFiles/cmTC_d5962.dir/CheckIncludeFile.c.obj
+        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_d5962.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kha1vy\\CheckIncludeFile.c"
+        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kha1vy\\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
          #include <dinput.h>
                             ^
         compilation terminated.
-        CMakeFiles\\cmTC_6eca2.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_6eca2.dir/CheckIncludeFile.c.obj' failed
-        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6eca2.dir/CheckIncludeFile.c.obj] Error 1
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-dmqb9s'
-        Makefile:126: recipe for target 'cmTC_6eca2/fast' failed
-        mingw32-make.exe: *** [cmTC_6eca2/fast] Error 2
+        CMakeFiles\\cmTC_d5962.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_d5962.dir/CheckIncludeFile.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_d5962.dir/CheckIncludeFile.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kha1vy'
+        Makefile:126: recipe for target 'cmTC_d5962/fast' failed
+        mingw32-make.exe: *** [cmTC_d5962/fast] Error 2
         
       exitCode: 2
   -
@@ -778,8 +778,8 @@ events:
     checks:
       - "Looking for xinput.h"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynn2uy"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynn2uy"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9iv6u3"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9iv6u3"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -789,22 +789,22 @@ events:
       variable: "XINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynn2uy'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9iv6u3'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f1b6d/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f1b6d.dir\\build.make CMakeFiles/cmTC_f1b6d.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynn2uy'
-        Building C object CMakeFiles/cmTC_f1b6d.dir/CheckIncludeFile.c.obj
-        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_f1b6d.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynn2uy\\CheckIncludeFile.c"
-        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynn2uy\\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e3f57/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e3f57.dir\\build.make CMakeFiles/cmTC_e3f57.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9iv6u3'
+        Building C object CMakeFiles/cmTC_e3f57.dir/CheckIncludeFile.c.obj
+        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_e3f57.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9iv6u3\\CheckIncludeFile.c"
+        C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9iv6u3\\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
          #include <xinput.h>
                             ^
         compilation terminated.
-        CMakeFiles\\cmTC_f1b6d.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_f1b6d.dir/CheckIncludeFile.c.obj' failed
-        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f1b6d.dir/CheckIncludeFile.c.obj] Error 1
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-ynn2uy'
-        Makefile:126: recipe for target 'cmTC_f1b6d/fast' failed
-        mingw32-make.exe: *** [cmTC_f1b6d/fast] Error 2
+        CMakeFiles\\cmTC_e3f57.dir\\build.make:76: recipe for target 'CMakeFiles/cmTC_e3f57.dir/CheckIncludeFile.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e3f57.dir/CheckIncludeFile.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-9iv6u3'
+        Makefile:126: recipe for target 'cmTC_e3f57/fast' failed
+        mingw32-make.exe: *** [cmTC_e3f57/fast] Error 2
         
       exitCode: 2
   -
@@ -817,8 +817,8 @@ events:
     checks:
       - "Performing Test _GLFW_HAS_DEP"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-pobw07"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-pobw07"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-jpn4lt"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-jpn4lt"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -828,19 +828,19 @@ events:
       variable: "_GLFW_HAS_DEP"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-pobw07'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-jpn4lt'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_be651/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_be651.dir\\build.make CMakeFiles/cmTC_be651.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-pobw07'
-        Building C object CMakeFiles/cmTC_be651.dir/src.c.obj
-        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -o CMakeFiles\\cmTC_be651.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pobw07\\src.c"
-        Linking C executable cmTC_be651.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_be651.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_be651.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_be651.dir/objects.a @CMakeFiles\\cmTC_be651.dir\\objects1.rsp
-        C:\\MinGW\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_be651.dir/objects.a -Wl,--no-whole-archive -o cmTC_be651.exe -Wl,--out-implib,libcmTC_be651.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_be651.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-pobw07'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5f1b4/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5f1b4.dir\\build.make CMakeFiles/cmTC_5f1b4.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-jpn4lt'
+        Building C object CMakeFiles/cmTC_5f1b4.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -o CMakeFiles\\cmTC_5f1b4.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpn4lt\\src.c"
+        Linking C executable cmTC_5f1b4.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5f1b4.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5f1b4.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_5f1b4.dir/objects.a @CMakeFiles\\cmTC_5f1b4.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_5f1b4.dir/objects.a -Wl,--no-whole-archive -o cmTC_5f1b4.exe -Wl,--out-implib,libcmTC_5f1b4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5f1b4.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-jpn4lt'
         
       exitCode: 0
   -
@@ -853,8 +853,8 @@ events:
     checks:
       - "Performing Test _GLFW_HAS_ASLR"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2ld88f"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2ld88f"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2jkeza"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2jkeza"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -864,19 +864,19 @@ events:
       variable: "_GLFW_HAS_ASLR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2ld88f'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2jkeza'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4622b/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4622b.dir\\build.make CMakeFiles/cmTC_4622b.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2ld88f'
-        Building C object CMakeFiles/cmTC_4622b.dir/src.c.obj
-        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -o CMakeFiles\\cmTC_4622b.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ld88f\\src.c"
-        Linking C executable cmTC_4622b.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4622b.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4622b.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_4622b.dir/objects.a @CMakeFiles\\cmTC_4622b.dir\\objects1.rsp
-        C:\\MinGW\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_4622b.dir/objects.a -Wl,--no-whole-archive -o cmTC_4622b.exe -Wl,--out-implib,libcmTC_4622b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_4622b.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2ld88f'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_dfb74/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dfb74.dir\\build.make CMakeFiles/cmTC_dfb74.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2jkeza'
+        Building C object CMakeFiles/cmTC_dfb74.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -o CMakeFiles\\cmTC_dfb74.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jkeza\\src.c"
+        Linking C executable cmTC_dfb74.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dfb74.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_dfb74.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_dfb74.dir/objects.a @CMakeFiles\\cmTC_dfb74.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_dfb74.dir/objects.a -Wl,--no-whole-archive -o cmTC_dfb74.exe -Wl,--out-implib,libcmTC_dfb74.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_dfb74.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-2jkeza'
         
       exitCode: 0
   -
@@ -889,8 +889,8 @@ events:
     checks:
       - "Performing Test _GLFW_HAS_64ASLR"
     directories:
-      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-m1r3fg"
-      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-m1r3fg"
+      source: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kliach"
+      binary: "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kliach"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -900,26 +900,26 @@ events:
       variable: "_GLFW_HAS_64ASLR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-m1r3fg'
+        Change Dir: 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kliach'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_19360/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_19360.dir\\build.make CMakeFiles/cmTC_19360.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-m1r3fg'
-        Building C object CMakeFiles/cmTC_19360.dir/src.c.obj
-        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -o CMakeFiles\\cmTC_19360.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1r3fg\\src.c"
-        Linking C executable cmTC_19360.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_19360.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_19360.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_19360.dir/objects.a @CMakeFiles\\cmTC_19360.dir\\objects1.rsp
-        C:\\MinGW\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_19360.dir/objects.a -Wl,--no-whole-archive -o cmTC_19360.exe -Wl,--out-implib,libcmTC_19360.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_19360.dir\\linkLibs.rsp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6d4b3/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6d4b3.dir\\build.make CMakeFiles/cmTC_6d4b3.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kliach'
+        Building C object CMakeFiles/cmTC_6d4b3.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -o CMakeFiles\\cmTC_6d4b3.dir\\src.c.obj -c "C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kliach\\src.c"
+        Linking C executable cmTC_6d4b3.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6d4b3.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6d4b3.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_6d4b3.dir/objects.a @CMakeFiles\\cmTC_6d4b3.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_6d4b3.dir/objects.a -Wl,--no-whole-archive -o cmTC_6d4b3.exe -Wl,--out-implib,libcmTC_6d4b3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6d4b3.dir\\linkLibs.rsp
         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: use the --help option for usage information
         collect2.exe: error: ld returned 1 exit status
-        CMakeFiles\\cmTC_19360.dir\\build.make:99: recipe for target 'cmTC_19360.exe' failed
-        mingw32-make.exe[1]: *** [cmTC_19360.exe] Error 1
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-m1r3fg'
-        Makefile:126: recipe for target 'cmTC_19360/fast' failed
-        mingw32-make.exe: *** [cmTC_19360/fast] Error 2
+        CMakeFiles\\cmTC_6d4b3.dir\\build.make:99: recipe for target 'cmTC_6d4b3.exe' failed
+        mingw32-make.exe[1]: *** [cmTC_6d4b3.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/CMakeScratch/TryCompile-kliach'
+        Makefile:126: recipe for target 'cmTC_6d4b3/fast' failed
+        mingw32-make.exe: *** [cmTC_6d4b3/fast] Error 2
         
       exitCode: 2
 ...

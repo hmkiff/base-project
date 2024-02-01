@@ -6,6 +6,12 @@
   "output": "CMakeFiles/base_project.dir/src/main.cpp.obj"
 },
 {
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -g -o CMakeFiles\\glad.dir\\glad\\src\\glad.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\include\\glad\\src\\glad.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/include/glad/src/glad.c",
+  "output": "libraries/include/CMakeFiles/glad.dir/glad/src/glad.c.obj"
+},
+{
   "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
   "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\context.c\"",
   "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/context.c",

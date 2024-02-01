@@ -190,6 +190,44 @@ depend:
 	cd /d C:\Users\hmkif\OneDrive\Desktop\OPENPR~1\BASE_P~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+libraries/include/CMakeFiles/glad.dir/rule:
+	cd /d C:\Users\hmkif\OneDrive\Desktop\OPENPR~1\BASE_P~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libraries/include/CMakeFiles/glad.dir/rule
+.PHONY : libraries/include/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: libraries/include/CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	cd /d C:\Users\hmkif\OneDrive\Desktop\OPENPR~1\BASE_P~1\build && $(MAKE) $(MAKESILENT) -f libraries\include\CMakeFiles\glad.dir\build.make libraries/include/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+glad/src/glad.obj: glad/src/glad.c.obj
+.PHONY : glad/src/glad.obj
+
+# target to build an object file
+glad/src/glad.c.obj:
+	cd /d C:\Users\hmkif\OneDrive\Desktop\OPENPR~1\BASE_P~1\build && $(MAKE) $(MAKESILENT) -f libraries\include\CMakeFiles\glad.dir\build.make libraries/include/CMakeFiles/glad.dir/glad/src/glad.c.obj
+.PHONY : glad/src/glad.c.obj
+
+glad/src/glad.i: glad/src/glad.c.i
+.PHONY : glad/src/glad.i
+
+# target to preprocess a source file
+glad/src/glad.c.i:
+	cd /d C:\Users\hmkif\OneDrive\Desktop\OPENPR~1\BASE_P~1\build && $(MAKE) $(MAKESILENT) -f libraries\include\CMakeFiles\glad.dir\build.make libraries/include/CMakeFiles/glad.dir/glad/src/glad.c.i
+.PHONY : glad/src/glad.c.i
+
+glad/src/glad.s: glad/src/glad.c.s
+.PHONY : glad/src/glad.s
+
+# target to generate assembly for a file
+glad/src/glad.c.s:
+	cd /d C:\Users\hmkif\OneDrive\Desktop\OPENPR~1\BASE_P~1\build && $(MAKE) $(MAKESILENT) -f libraries\include\CMakeFiles\glad.dir\build.make libraries/include/CMakeFiles/glad.dir/glad/src/glad.c.s
+.PHONY : glad/src/glad.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -205,6 +243,10 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... glad
+	@echo ... glad/src/glad.obj
+	@echo ... glad/src/glad.i
+	@echo ... glad/src/glad.s
 .PHONY : help
 
 

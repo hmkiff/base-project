@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
@@ -52,40 +53,55 @@
 					]
 				},
 				{
+					"build" : "libraries/include",
+					"jsonFile" : "directory-libraries.include-Debug-56dcb7d42e2bfb1e29d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libraries/include",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
 					"build" : "libraries/lib/glfw-3.3.9",
 					"childIndexes" : 
 					[
-						2
+						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-libraries.lib.glfw-3.3.9-Debug-e7c401fdfa774af6e186.json",
+					"jsonFile" : "directory-libraries.lib.glfw-3.3.9-Debug-d4768c889f431e5d43e6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 1,
+					"projectIndex" : 2,
 					"source" : "libraries/lib/glfw-3.3.9",
 					"targetIndexes" : 
 					[
-						30
+						31
 					]
 				},
 				{
 					"build" : "libraries/lib/glfw-3.3.9/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-libraries.lib.glfw-3.3.9.src-Debug-5d6d4d6f890b443ea518.json",
+					"jsonFile" : "directory-libraries.lib.glfw-3.3.9.src-Debug-75b6602b335894abbc90.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
 					},
-					"parentIndex" : 1,
-					"projectIndex" : 1,
+					"parentIndex" : 2,
+					"projectIndex" : 2,
 					"source" : "libraries/lib/glfw-3.3.9/src",
 					"targetIndexes" : 
 					[
-						29,
-						31
+						30,
+						32
 					]
 				}
 			],
@@ -95,7 +111,8 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
@@ -138,16 +155,28 @@
 				{
 					"directoryIndexes" : 
 					[
-						1,
-						2
+						1
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
 					],
 					"name" : "GLFW",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						29,
 						30,
-						31
+						31,
+						32
 					]
 				}
 			],
@@ -352,30 +381,37 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "base_project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-base_project-Debug-7d3507cd00e72ed84479.json",
+					"jsonFile" : "target-base_project-Debug-98f4935c5ae727735583.json",
 					"name" : "base_project",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 2,
-					"id" : "glfw::@7ef32f81ace435c9026b",
-					"jsonFile" : "target-glfw-Debug-0389224f696cf2196ff0.json",
-					"name" : "glfw",
+					"directoryIndex" : 1,
+					"id" : "glad::@520d4a361e2e09cead00",
+					"jsonFile" : "target-glad-Debug-c0dd05a1a5b47553cbe3.json",
+					"name" : "glad",
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 1,
+					"directoryIndex" : 3,
+					"id" : "glfw::@7ef32f81ace435c9026b",
+					"jsonFile" : "target-glfw-Debug-84d2c6adf8bff9a8b6a4.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
 					"id" : "uninstall::@681474bfbee03fce5cbe",
 					"jsonFile" : "target-uninstall-Debug-a9f9c07d04922c438648.json",
 					"name" : "uninstall",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
-					"directoryIndex" : 2,
+					"directoryIndex" : 3,
 					"id" : "update_mappings::@7ef32f81ace435c9026b",
 					"jsonFile" : "target-update_mappings-Debug-c5e5eeb10f6863b780ea.json",
 					"name" : "update_mappings",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				}
 			]
 		}

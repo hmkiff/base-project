@@ -92,6 +92,7 @@ base_project_EXTERNAL_OBJECTS =
 
 base_project.exe: CMakeFiles/base_project.dir/src/main.cpp.obj
 base_project.exe: CMakeFiles/base_project.dir/build.make
+base_project.exe: libraries/include/libglad.a
 base_project.exe: libraries/lib/glfw-3.3.9/src/libglfw3.a
 base_project.exe: CMakeFiles/base_project.dir/linkLibs.rsp
 base_project.exe: CMakeFiles/base_project.dir/objects1.rsp

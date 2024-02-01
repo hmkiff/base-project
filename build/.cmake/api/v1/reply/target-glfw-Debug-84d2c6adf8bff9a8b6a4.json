@@ -15,14 +15,12 @@
 			"install",
 			"target_compile_options",
 			"target_compile_definitions",
-			"include_directories",
 			"target_include_directories",
 			"set_target_properties"
 		],
 		"files" : 
 		[
-			"libraries/lib/glfw-3.3.9/src/CMakeLists.txt",
-			"CMakeLists.txt"
+			"libraries/lib/glfw-3.3.9/src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -66,28 +64,19 @@
 				"parent" : 0
 			},
 			{
-				"file" : 1
-			},
-			{
 				"command" : 4,
-				"file" : 1,
-				"line" : 12,
-				"parent" : 7
-			},
-			{
-				"command" : 5,
 				"file" : 0,
 				"line" : 112,
 				"parent" : 0
 			},
 			{
-				"command" : 5,
+				"command" : 4,
 				"file" : 0,
 				"line" : 115,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 5,
 				"file" : 0,
 				"line" : 102,
 				"parent" : 0
@@ -132,23 +121,19 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 8,
-					"path" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/include/glad"
-				},
-				{
-					"backtrace" : 9,
+					"backtrace" : 7,
 					"path" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 8,
 					"path" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 8,
 					"path" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 8,
 					"path" : "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/deps/mingw"
 				}
 			],
@@ -157,7 +142,7 @@
 			{
 				"backtraces" : 
 				[
-					11
+					9
 				],
 				"standard" : "99"
 			},

@@ -36,6 +36,16 @@ C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/list
 C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/install.dir
 C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/install/local.dir
 C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/CMakeFiles/install/strip.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/glad.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/package.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/package_source.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/test.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/edit_cache.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/rebuild_cache.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/list_install_components.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/install.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/install/local.dir
+C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/include/CMakeFiles/install/strip.dir
 C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir
 C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/CMakeFiles/package.dir
 C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/CMakeFiles/package_source.dir

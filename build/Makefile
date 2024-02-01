@@ -568,6 +568,19 @@ base_project/fast:
 .PHONY : base_project/fast
 
 #=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f libraries\include\CMakeFiles\glad.dir\build.make libraries/include/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -676,6 +689,7 @@ help:
 	@echo ... uninstall
 	@echo ... update_mappings
 	@echo ... base_project
+	@echo ... glad
 	@echo ... glfw
 	@echo ... src/main.obj
 	@echo ... src/main.i
