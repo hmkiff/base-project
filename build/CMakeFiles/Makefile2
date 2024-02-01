@@ -63,10 +63,11 @@ CMAKE_BINARY_DIR = "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\b
 
 # The main recursive "all" target.
 all: CMakeFiles/base_project.dir/all
+all: libraries/lib/glfw-3.3.9/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: libraries/lib/glfw-3.3.9/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -99,7 +100,40 @@ clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/base_project.dir/clean
+clean: libraries/lib/glfw-3.3.9/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libraries/lib/glfw-3.3.9
+
+# Recursive "all" directory target.
+libraries/lib/glfw-3.3.9/all: libraries/lib/glfw-3.3.9/src/all
+.PHONY : libraries/lib/glfw-3.3.9/all
+
+# Recursive "preinstall" directory target.
+libraries/lib/glfw-3.3.9/preinstall: libraries/lib/glfw-3.3.9/src/preinstall
+.PHONY : libraries/lib/glfw-3.3.9/preinstall
+
+# Recursive "clean" directory target.
+libraries/lib/glfw-3.3.9/clean: libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/clean
+libraries/lib/glfw-3.3.9/clean: libraries/lib/glfw-3.3.9/src/clean
+.PHONY : libraries/lib/glfw-3.3.9/clean
+
+#=============================================================================
+# Directory level rules for directory libraries/lib/glfw-3.3.9/src
+
+# Recursive "all" directory target.
+libraries/lib/glfw-3.3.9/src/all: libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all
+.PHONY : libraries/lib/glfw-3.3.9/src/all
+
+# Recursive "preinstall" directory target.
+libraries/lib/glfw-3.3.9/src/preinstall:
+.PHONY : libraries/lib/glfw-3.3.9/src/preinstall
+
+# Recursive "clean" directory target.
+libraries/lib/glfw-3.3.9/src/clean: libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean
+libraries/lib/glfw-3.3.9/src/clean: libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/clean
+.PHONY : libraries/lib/glfw-3.3.9/src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -833,15 +867,15 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 # Target rules for target CMakeFiles/base_project.dir
 
 # All Build rule for target.
-CMakeFiles/base_project.dir/all:
+CMakeFiles/base_project.dir/all: libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base_project.dir\build.make CMakeFiles/base_project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base_project.dir\build.make CMakeFiles/base_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=1,2 "Built target base_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=1,2,3 "Built target base_project"
 .PHONY : CMakeFiles/base_project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/base_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/base_project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 0
 .PHONY : CMakeFiles/base_project.dir/rule
@@ -854,6 +888,84 @@ base_project: CMakeFiles/base_project.dir/rule
 CMakeFiles/base_project.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base_project.dir\build.make CMakeFiles/base_project.dir/clean
 .PHONY : CMakeFiles/base_project.dir/clean
+
+#=============================================================================
+# Target rules for target libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir
+
+# All Build rule for target.
+libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/all:
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\CMakeFiles\uninstall.dir\build.make libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/depend
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\CMakeFiles\uninstall.dir\build.make libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num= "Built target uninstall"
+.PHONY : libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/all
+
+# Build rule for subdir invocation for target.
+libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 0
+.PHONY : libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/rule
+
+# Convenience name for target.
+uninstall: libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/rule
+.PHONY : uninstall
+
+# clean rule for target.
+libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\CMakeFiles\uninstall.dir\build.make libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/clean
+.PHONY : libraries/lib/glfw-3.3.9/CMakeFiles/uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir
+
+# All Build rule for target.
+libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/all:
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\update_mappings.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/depend
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\update_mappings.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=20 "Built target update_mappings"
+.PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/all
+
+# Build rule for subdir invocation for target.
+libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 0
+.PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/rule
+
+# Convenience name for target.
+update_mappings: libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/rule
+.PHONY : update_mappings
+
+# clean rule for target.
+libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\update_mappings.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean
+
+#=============================================================================
+# Target rules for target libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir
+
+# All Build rule for target.
+libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all:
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\glfw.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/depend
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\glfw.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target glfw"
+.PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all
+
+# Build rule for subdir invocation for target.
+libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\hmkif\OneDrive\Desktop\Open Projects\base_project\build\CMakeFiles" 0
+.PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/rule
+
+# Convenience name for target.
+glfw: libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/rule
+.PHONY : glfw
+
+# clean rule for target.
+libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libraries\lib\glfw-3.3.9\src\CMakeFiles\glfw.dir\build.make libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/clean
+.PHONY : libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

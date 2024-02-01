@@ -3,5 +3,9 @@ New components will be added as needed.
 
 This branch is focused on basic graphics implementation
 
+Loosely based on these tutorials:
+https://medium.com/@vivekjha92/setup-opengl-with-vs-code-82852c653c43
+
+
 Current Graphics Library and Renderer:
-- OpenGL via Qt
+- OpenGL via GLFW and GLAD

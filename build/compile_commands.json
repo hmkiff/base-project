@@ -1,8 +1,104 @@
 [
 {
   "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\base_project.dir\\main.cpp.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\main.cpp\"",
-  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/main.cpp",
-  "output": "CMakeFiles/base_project.dir/main.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/base_project.dir/includes_CXX.rsp -g -o CMakeFiles\\base_project.dir\\src\\main.cpp.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\src\\main.cpp\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/src/main.cpp",
+  "output": "CMakeFiles/base_project.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/base_project.dir/includes_C.rsp -g -o CMakeFiles\\base_project.dir\\src\\glad.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\src\\glad.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/src/glad.c",
+  "output": "CMakeFiles/base_project.dir/src/glad.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\context.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/context.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\init.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/init.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\input.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/input.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\monitor.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/monitor.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\vulkan.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/vulkan.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\window.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/window.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\win32_init.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/win32_init.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\win32_joystick.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/win32_joystick.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\win32_monitor.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/win32_monitor.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\win32_time.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/win32_time.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\win32_thread.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/win32_thread.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\win32_window.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/win32_window.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\wgl_context.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/wgl_context.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\egl_context.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/egl_context.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/build/libraries/lib/glfw-3.3.9/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"C:\\Users\\hmkif\\OneDrive\\Desktop\\Open Projects\\base_project\\libraries\\lib\\glfw-3.3.9\\src\\osmesa_context.c\"",
+  "file": "C:/Users/hmkif/OneDrive/Desktop/Open Projects/base_project/libraries/lib/glfw-3.3.9/src/osmesa_context.c",
+  "output": "libraries/lib/glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
 }
 ]
