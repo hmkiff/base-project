@@ -1,2 +1,7 @@
 Base essentials for starting a generic project with C++ and CMake.
 New components will be added as needed.
+
+This branch is focused on basic graphics implementation
+
+Current Graphics Library and Renderer:
+- OpenGL via Qt
